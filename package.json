@@ -1,0 +1,22 @@
+{
+  "name": "lesswork-pusher",
+  "version": "0.0.2",
+  "description": "pusher service provider for lesswork-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lessworkjs/lesswork-pusher.git"
+  },
+  "author": "William Bowman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lessworkjs/lesswork-pusher/issues"
+  },
+  "homepage": "https://github.com/lessworkjs/lesswork-pusher#readme",
+  "dependencies": {
+    "pusher": "^1.5.1"
+  }
+}
