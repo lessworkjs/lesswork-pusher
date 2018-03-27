@@ -43,7 +43,7 @@ const env = {
 
 
 # Usage
-See (pusher)[https://www.npmjs.com/package/pusher] for full usage information.
+See [pusher](https://www.npmjs.com/package/pusher) for full usage information.
 
 ```js
 const Pusher = use('Pusher');
