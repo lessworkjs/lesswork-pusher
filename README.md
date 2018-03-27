@@ -11,7 +11,7 @@ Register the provider and alias in your `config/app.js` file.
 ```js
 const providers = [
   ...
-  'lesswork-pusher/Providers/PusherProvider',
+  'lesswork-pusher/providers/PusherProvider',
 ];
 
 const aliases = {
