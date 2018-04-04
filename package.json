@@ -1,6 +1,6 @@
 {
   "name": "lesswork-pusher",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "pusher service provider for lesswork-framework",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lessworkjs/lesswork-pusher#readme",
   "dependencies": {
+    "@adonisjs/fold": "^4.0.7",
     "pusher": "^1.5.1"
   }
 }

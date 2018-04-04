@@ -1,8 +1,8 @@
-'use strict';
-
 const {
-  ServiceProvider
-} = require('adonis-fold');
+  ServiceProvider,
+} = require('@adonisjs/fold');
+
+const Pusher = require('pusher');
 
 class PusherProvider extends ServiceProvider {
   /**
@@ -13,15 +13,12 @@ class PusherProvider extends ServiceProvider {
    *
    * @return {void}
    */
-  * register() {
-    this.app.bind('Lesswork/Pusher', function (app) {
-      const Pusher = require('pusher');
+  register() {
+    this.app.bind('Lesswork/Pusher', (app) => {
+      const conf = app.use('Config').get('pusher');
 
-      const conf = config.get('pusher');
-
-      console.log(conf)
       if (!conf) {
-        throw `Missing 'config/pusher.js'.`;
+        throw new Error('Missing \'config/pusher.js\'.');
       }
 
       return new Pusher(conf);
