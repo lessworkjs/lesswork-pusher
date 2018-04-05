@@ -1,4 +1,4 @@
-# lesswork-pusher
+# Lessworkjs/Adonisjs Pusher
 This is a pusher provider for the [lessworkjs](https://lesswork.io/) and [adonisjs](https://adonisjs.com/) frameworks.
 
 # Installation

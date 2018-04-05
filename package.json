@@ -1,21 +1,21 @@
 {
   "name": "@lessworkjs/pusher",
-  "version": "0.0.8",
-  "description": "pusher service provider for lesswork-framework",
+  "version": "0.0.9",
+  "description": "pusher service provider for Lessworkjs or Adonisjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lessworkjs/lesswork-pusher.git"
+    "url": "git+https://github.com/lessworkjs/pusher.git"
   },
   "author": "William Bowman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lessworkjs/lesswork-pusher/issues"
+    "url": "https://github.com/lessworkjs/pusher/issues"
   },
-  "homepage": "https://github.com/lessworkjs/lesswork-pusher#readme",
+  "homepage": "https://github.com/lessworkjs/pusher#readme",
   "dependencies": {
     "@adonisjs/fold": "^4.0.7",
     "pusher": "^1.5.1"
