@@ -14,7 +14,7 @@ class PusherProvider extends ServiceProvider {
    * @return {void}
    */
   register() {
-    this.app.bind('Lesswork/Pusher', (app) => {
+    this.app.bind('Lesswork/Src/Pusher', (app) => {
       const conf = app.use('Config').get('pusher');
 
       if (!conf) {
@@ -23,6 +23,8 @@ class PusherProvider extends ServiceProvider {
 
       return new Pusher(conf);
     });
+    this.app.alias('Lesswork/Src/Pusher', 'Adonis/Src/Pusher');
+    this.app.alias('Lesswork/Src/Pusher', 'Pusher');
   }
 }
 
