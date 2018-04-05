@@ -1,5 +1,5 @@
 # lesswork-pusher
-This is a pusher provider for the `lesswork-framework`.
+This is a pusher provider for the [lessworkjs](https://lesswork.io/) and [adonisjs](https://adonisjs.com/) frameworks.
 
 # Installation
 ```bash 
