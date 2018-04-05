@@ -3,7 +3,7 @@ This is a pusher provider for the `lesswork-framework`.
 
 # Installation
 ```bash 
-npm i --save lesswork-pusher
+npm i --save @lessworkjs/pusher
 ```
 
 Register the provider and alias in your `config/app.js` file.
@@ -11,7 +11,7 @@ Register the provider and alias in your `config/app.js` file.
 ```js
 const providers = [
   ...
-  'lesswork-pusher/providers/PusherProvider',
+  '@lessworkjs/pusher/providers/PusherProvider',
 ];
 
 const aliases = {
